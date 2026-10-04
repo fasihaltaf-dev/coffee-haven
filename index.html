@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Haven</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+    <!--Nav bar-->
+        
+      <nav>
+         <div class="logo">
+            <img src="Images/logo.png" alt="Coffee Haven Logo">
+         </div>
+
+         <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#order">Order Now</a>
+            <a href="#contact">Contact</a>
+         </div>
+       </nav>
+        <main>
+      <!--Hero Section-->
+
+      <section id="home" class="hero">
+         
+        <div class="hero-content">
+            <h1>Fresh Coffee, Fresh Mood</h1>
+
+             <p>Enjoy freshly brewed coffee made with premium beans in a warm and relaxing atmosphere.</p>
+
+             <div class="hero-buttons">
+                 <a href="#menu">Explore Menu</a>
+                 <a href="#order">Order Now</a>
+             </div>
+          </div>
+
+         <div class="hero-image">
+            <img src="Images/coffee.jpg" alt="A steaming cup of freshly brewed coffee on a wooden table">
+
+         </div>
+      </section>
+     <!--About Section-->
+     <section id="about" class="about">
+         <div class="about-content">
+           <h2>About Coffee Haven</h2>
+            <p>At Coffee Haven, every cup is brewed fresh with premium, ethically-sourced beans. Our warm, cozy space is made for slow mornings, honest conversations, and everything in between. More than just coffee — we're where the community gathers.</p>
+           
+           
+             <div class="information-items">
+                 <ul>
+                    <li>Fresh Coffee</li>
+                    <li>Quality Beans</li>
+                    <li>Relaxing Environment</li>
+                </ul>
+             </div>
+         </div>
+         <div class="shop-image">
+            <img src="Images/coffee shop.png" alt="Coffee Haven coffee shop">
+         </div>
+      </section>   
+
+      <!--Menu Section-->
+         <section id="menu" class="menu">
+
+             <h2>Our Menu</h2>
+             <div class="menu-grid">
+ 
+             <!--Card 1-->
+
+             
+             <div class="menu-card">
+
+             <img src="Images/espresso.jpg" alt="Espresso Coffee">
+             <div class="card-content">
+                <h3>Espresso</h3>
+             <p>
+                Rich and bold espresso made from freshly roasted coffee beans.
+             </p>   
+             <span class="price">350/-Rs</span>
+            </div>
+        </div>
+
+        <!--Card 2-->
+        <div class="menu-card">
+         <img src="Images/cappuccino.jpg" alt="Cappuccino Coffee">
+         <div class="card-content">
+         <h3>Cappuccino</h3>
+         <p>A smooth combination of rich espresso, steamed milk, and creamy milk foam with a delicious and balanced taste.</p>
+         <span class="price">400-/Rs</span>
+        </div>
+        </div>
+        <!--Card 3-->
+
+        <div class="menu-card">
+          <img src="Images/latte-coffee.jpg" alt="Latte Coffee">
+          <div class="card-content">
+          <h3>Latte</h3>
+          <p>A creamy and smooth coffee made with a shot of espresso and plenty of steamed milk, perfect for a relaxing moment.</p>
+          <span class="price">650-/Rs</span>
+        </div>
+        </div> 
+             <!--Card 4-->
+             <div class="menu-card">
+               <img src="Images/americano-coffee.jpg" alt="Americano Coffee">
+               <div class="card-content">
+               <h3>Americano</h3>
+               <p>A simple yet flavorful coffee made by combining rich espresso with hot water for a smooth and refreshing taste.</p>
+               <span class="price">550-/Rs</span>
+               </div>
+             </div>
+
+          <!--Card 5-->
+          <div class="menu-card">
+            <img src="Images/mocha-coffee.jpg" alt="Mocha Coffee">
+            <div class="card-content">
+            <h3>Mocha</h3>
+            <p>A delicious blend of rich espresso, smooth chocolate, and steamed milk, topped with creamy foam for a sweet treat.</p>
+            <span class="price">750-/Rs</span>
+            </div>
+          
+          </div>
+
+          <!--Card 6-->
+          <div class="menu-card">
+            <img src="Images/cold-brew-coffee.jpg" alt="Cold Brew Coffee">
+            <div class="card-content">
+            <h3>Cold Brew</h3>
+            <p>A refreshing coffee slowly brewed with cold water, offering a smooth, naturally sweet flavor with a rich coffee taste.</p>
+            <span class="price">550-/Rs</span>
+            </div>
+          </div>
+         </div>   
+         </section>
+         <!--Order Section-->
+         <section id="order" class="order">
+            <h2>Order Now</h2>
+
+            <p>Choose your favorite coffee, select the quantity, and place your order with us. We'll prepare your coffee fresh and ready to enjoy.</p>
+            <form class="order-form">
+               <input type="text" placeholder="Enter your name" required>
+               <input type="email" placeholder="Enter your email" required>
+               
+                      <select required>
+                        <option value="" disabled selected>Select your coffee</option>
+                        <option value="espresso">Espresso</option>
+                        <option value="cappuccino">Cappuccino</option>
+                        <option value="latte">Latte</option>
+                        <option value="americano">Americano</option>
+                        <option value="mocha">Mocha</option>
+                        <option value="cold brew">Cold Brew</option>
+                      </select>
+               <input type="number" placeholder="Enter Quantity" min="1" required>
+               <textarea placeholder="Write your special instructions"></textarea>
+               <button type="submit">Submit</button>
+            </form>
+         </section>
+
+         <!--Contact Section-->
+         <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>Have a question or want to know more about Coffee Haven? Get in touch with us — we'd love to hear from you.</p>
+           <!--Contact Information-->
+             <div class="contact-info">
+               <h3>Contact Information</h3>
+               <p><strong>Address:</strong> Main Gulberg, Lahore, Pakistan</p>
+               <p><strong>Phone:</strong> +92 300 1234567</p>
+               <p><strong>Email:</strong> info@coffeehaven.com</p>
+             </div>
+
+             <!--Contact Form-->
+             <form>
+                <input
+                     type="text"
+                     placeholder="Enter your name"
+                     required>
+                     
+                <input
+                     type="email"
+                     placeholder="Enter your email"
+                     required>
+                <textarea
+                      placeholder="Enter your message"
+                      required
+                 ></textarea>
+
+                 <button type="submit">Send Message</button>
+
+
+            </form>
+         </section>
+         </main>
+         <!--Footer Section-->
+         <footer>
+            <h2>Coffee Haven</h2>
+         <p> Coffee Haven is your cozy place for freshly brewed coffee, quality beans, and relaxing moments. Come in, grab your favorite cup, and enjoy the perfect coffee experience.</p>
+         <div class="quick-links">
+            <h3>Quick Links</h3>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#order">Order Now</a>
+            <a href="#contact">Contact</a>
+            </div>
+            <div class="social-links">
+               <h3>Follow Us</h3>
+               <a href="#">Instagram</a>
+               <a href="#">Facebook</a>
+               <a href="#">YouTube</a>
+            </div>
+            <p>&copy; 2026 Coffee Haven. All rights reserved.</p>
+         </footer>  
+
+</body>
+</html>
